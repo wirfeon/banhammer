@@ -20,12 +20,14 @@ Every positive hit is reported in bot's admin chat group with a brief descriptio
 ## 2. "Joined" message removing
 Bot deletes every system message that informs of a user joing a chat group.
 
-![joined removed]("banhammer/Screenshot from 2019-02-19 14-27-35.png")
+![Joined message removed](sc-removed.png)
 
 ## 3. User management
 Bot provides several commands for managing users across all groups where it is added. All these commands has to be run in bot's admin group chat.
 
 ### Banning user
 An admin must first forward a message of a user who is to be banned. This marks the user for the bot. Admin then reply to this forwarded message with /ban command. Bot puts the author of the message on a blacklist and kicks him from every chat group.
+
+![User banned](sc-banned.png)
 
 ## 4. Bot management
