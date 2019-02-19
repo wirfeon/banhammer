@@ -20,7 +20,7 @@ Every positive hit is reported in bot's admin chat group with a brief descriptio
 ## 2. "Joined" message removing
 Bot deletes every system message that informs of a user joing a chat group.
 
-![joined removed]("Screenshot from 2019-02-19 14-27-35.png")
+![joined removed]("banhammer/Screenshot from 2019-02-19 14-27-35.png")
 
 ## 3. User management
 Bot provides several commands for managing users across all groups where it is added. All these commands has to be run in bot's admin group chat.
