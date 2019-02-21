@@ -9,7 +9,7 @@
    * Blacklisting user
    * Whitelisting user
 4. Bot management
-
+   
 ## 1. Spam removing
 Bot provides automatic spam detection. Every message is scanned and evaluated. If it reaches certain score of spamness, bot deletes such a message and kick its author out of the chat group. In addition to that: 
 * bot kicks the author out of all other groups where the bot is added
@@ -31,3 +31,10 @@ An admin must first forward a message of a user who is to be banned. This marks 
 ![User banned](sc-banned.png)
 
 ## 4. Bot management
+In order to add the bot to a new chat group, one must authorize that chat by executing /enable command. Without authorization the bot will leave the new chat immediately after joining. /enable takes one arugment and that is a chat ID 
+
+[!Chat authorized](sc-enabled.png)
+
+Use /whereami to see where the bot is added
+
+[!Whereami](sc-whereami.png)
