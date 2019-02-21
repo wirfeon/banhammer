@@ -26,9 +26,20 @@ Bot deletes every system message that informs of a user joing a chat group.
 Bot provides several commands for managing users across all groups where it is added. All these commands has to be run in bot's admin group chat.
 
 ### Banning user
-An admin must first forward a message of a user who is to be banned. This marks the user for the bot. Admin then reply to this forwarded message with /ban command. Bot puts the author of the message on a blacklist and kicks him from every chat group.
+An admin must first forward a message of a user who is to be banned. This marks the user for the bot. Admin then reply to this forwarded message with /ban command. Bot puts the author of the message on a blacklist and kicks him from every chat group. User that is on whitelist can not be banned.
 
 ![User banned](sc-banned.png)
+
+### Unbanning user
+Use /unban command with user ID as an argument. User ID is a number and you will find it in bot's response to the banning. The user will be unbanned in all chat groups and removed from a blacklist.
+
+![User unbanned](sc-unban.png)
+
+### Blacklisting user
+Use /blacklist with user ID as an argument. User ID is a number and you will find it in bot's response to the banning. The user will be put on blacklist and removed from whitelist (if on it). This will not result in immediate ban. The user will be banned when joined or posted in a chat.
+
+### Whitelisting user
+Use /whitelist with user ID as an argument. User ID is a number and you will find it in bot's response to the banning. The user will be put on whitelist and removed from blacklist (if on it). This will save the user from any banning by the bot. If the user was banned prior to whitelisting, you must also use /unban to lift the current restrictions in all chats.
 
 ## 4. Bot management
 In order to add the bot to a new chat group, one must authorize that chat by executing /enable command. Without authorization the bot will leave the new chat immediately after joining. /enable takes one arugment and that is a chat ID 
