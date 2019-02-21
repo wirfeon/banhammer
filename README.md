@@ -44,8 +44,8 @@ Use /whitelist with user ID as an argument. User ID is a number and you will fin
 ## 4. Bot management
 In order to add the bot to a new chat group, one must authorize that chat by executing /enable command. Without authorization the bot will leave the new chat immediately after joining. /enable takes one arugment and that is a chat ID 
 
-[!Chat authorized](sc-enabled.png)
+![Chat authorized](sc-enabled.png)
 
 Use /whereami to see where the bot is added
 
-[!Whereami](sc-whereami.png)
+![Whereami](sc-whereami.png)
